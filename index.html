@@ -5,64 +5,139 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/style.css">
+  <script src="javascript/main.js" defer></script>
+
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
-  About
-  Services
-  Projects
-  Contact
+  <div class="container"> <!------Header------>
+    <header class="container_header">
+      <img src="images/logo.svg" alt="Logo Icon" class="container_header_logo-img">
+      <img src="images/icon-hamburger.svg" class="container_header_btnmenu" id="container_header_btnmenu" alt="Menu button">
+      <nav class="container_header_nav" id="container_header_nav">
+        <a class="container_header_nav_a" href="#">About</a>
+        <a class="container_header_nav_a" href="#">Services</a>
+        <a class="container_header_nav_a" href="#">Projects</a>
+        <a class="container_header_nav_a" href="#">Contact</a>
+      </nav>
+    </header> <!------/Header------>
 
-  We are creatives
+    <section class="container_poster">
+      <h1 class="container_poster_title">We are creatives</h1>
+      <img src="images/icon-arrow-down.svg" class="container_poster_arrow" alt="arrow down icon">
+    </section>
 
-  Transform your brand
+    <section class="container_section-first container_sections">
+      <h3 class="container_section-first_title">Transform your brand</h2>
+      <p class="container_sections-paragh">We are a full-service creative agency specializing in helping brands grow fast. 
+        Engage your clients through compelling visuals that do most of the marketing for you.
+      </p>
+      <a href="#">Learn more</a>
+    </section>
 
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
+    <section class="container_section-second container_sections">
+      
+    </section>
 
-  Learn more
+    <section class="container_section-third container_sections">
 
-  Stand out to the right audience
+    </section>
 
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+    <section class="container_section-fourth container_sections">
+      <h3>Stand out to the right audience</h2>
+      <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
+      </p>
+      <a href="#">Learn more</a>
+    </section>
 
-  Learn more
+    <section class="container_section-fith container_sections">
+      <h3>Graphic design</h3>
+      <p>
+        Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+      </p>
+    </section>
 
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+    <section class="container_section-sixth container_sections">
+      <h3>Photography</h3>
+      <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+      </p>
+    </section>
 
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+    <section class="container_testimonials-container">
+      <div class="container_testimonials-container_title">
+        <h2 class="container_testimonials-container_title_h2">Client testimonials</h2>
+      </div>
+      
+      <!--First Client-->
+      <div class="container_testimonials-container_first-client container_testimonials-container_clientsdiv">
+        
+        <img class="container_testimonials-container_clientsdiv_img" src="images/image-emily.jpg" alt="">
+        <p class="container_testimonials-container_clientsdiv_paragh"> 
+          We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+        </p>
 
-  Client testimonials
+        <h5 class="container_testimonials-container_clientsdiv_signature">Emily R.</h5>
+        <p class="container_testimonials-container_clientsdiv_position">Marketing Director</p>
 
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
+      </div>
 
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
+      <!--Second Client-->
+      <div class="container_testimonials-container_clientsdiv container_testimonials-container_clientsdiv">
+        <img class="container_testimonials-container_clientsdiv_img" src="images/image-thomas.jpg" alt="">
+        <p class="container_testimonials-container_clientsdiv_paragh">
+          Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+        </p>
 
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
+        <h5 class="container_testimonials-container_clientsdiv_signature">Thomas S.</h5>
+        <p class="container_testimonials-container_clientsdiv_position">Chief Operating Officer</p>
+      </div>
 
-  About
-  Services
-  Projects
-  Contact
+      <!--Third Client-->
+      <div class="container_testimonials-container_third-client container_testimonials-container_clientsdiv">
+        <img class="container_testimonials-container_clientsdiv_img" src="images/image-jennie.jpg" alt="">
+        <p class="container_testimonials-container_clientsdiv_paragh">
+          Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+        </p>
 
+        <h5 class="container_testimonials-container_clientsdiv_signature">Jennie F.</h5>
+        <p class="container_testimonials-container_clientsdiv_position">Business Owner</p>
+      </div>
+      
+    </section>
+
+    <section class="container_gallery-section">
+      <div class="container_gallery-section_div container_gallery-section_div_row1 container_gallery-section_div_img1"></div>
+      <div class="container_gallery-section_div container_gallery-section_div_row1 container_gallery-section_div_img2"></div>
+      <div class="container_gallery-section_div container_gallery-section_div_row2 container_gallery-section_div_img3"></div>
+      <div class="container_gallery-section_div container_gallery-section_div_row2 container_gallery-section_div_img4"></div>
+    </section>
+
+    <footer class="container_footer">
+      <div class="container_footer_container">
+        <img src="images/logoFooter.svg" class="container_footer_logo" alt="">
+        <nav class="container_footer_nav-links">
+          <a href="" class="container_footer_nav-links_a">About</a>
+          <a href="" class="container_footer_nav-links_a">Services</a>
+          <a href="" class="container_footer_nav-links_a">Projects</a>
+        </nav>
+
+        <nav class="container_footer_nav-social-media">
+          <img src="images/icon-facebook.svg" class="container_footer_nav-social-media_img" alt="">
+          <img src="images/icon-instagram.svg"class="container_footer_nav-social-media_img"  alt="">
+          <img src="images/icon-twitter.svg" class="container_footer_nav-social-media_img" alt="">
+          <img src="images/icon-pinterest.svg" class="container_footer_nav-social-media_img" alt="">
+        </nav>
+      </div>
+    </footer>
+  </div>
+  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Fernando Zavala</a>.
   </div>
 </body>
 </html>
